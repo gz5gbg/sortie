@@ -1,9 +1,0 @@
-az vm create \
-    --name monitored-linux-vm \
-    --image UbuntuLTS \
-    --size Standard_B1s \
-    --location eastus2 \
-    --admin-username azureuser \
-    --boot-diagnostics-storage $STORAGE \
-    --resource-group learn-55acdb89-4085-4514-a639-2e64ab6cec70 \
-    --generate-ssh-keys
